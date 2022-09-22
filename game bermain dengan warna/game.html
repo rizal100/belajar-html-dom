@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        text-align: center;
+      }
+
+      .tmerah {
+        background-color: rebeccapurple;
+      }
+      .kotak {
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;
+      }
+      .merahrange {
+        background-color: red;
+      }
+      .green {
+        background-color: green;
+      }
+      .blue {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>bermain dengan warna</h1>
+    <button type="button" class="acak">acak</button>
+    <button type="button" class="merah">merah</button>
+    <button type="buttom" class="kuning">kuning</button>
+    <button type="button" class="tomato">tomato</button>
+    <button type="button" class="hitam">hitam</button>
+    <button type="button" class="putih">putih</button>
+    <br /><br />
+    <div class="kotak merahrange"></div>
+    <input type="range" name="smerah" min="0" max="255" />
+
+    <br /><br />
+    <div class="kotak green"></div>
+    <input type="range" name="shijau" min="0" max="255" />
+
+    <br /><br />
+    <div class="kotak blue"></div>
+    <input type="range" name="sbiru" min="0" max="255" />
+
+    <script src="game.js"></script>
+  </body>
+</html>
